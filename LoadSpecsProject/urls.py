@@ -21,4 +21,7 @@ from LoadSpecsApp import views as s_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', s_views.home, name='home'),
+    path('tasks/', s_views.tasks, name='tasks'),
+    path('profile/', s_views.profile, name='profile'),
+    path('team/', s_views.team, name='team'),
 ]
